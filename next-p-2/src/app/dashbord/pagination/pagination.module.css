@@ -1,0 +1,35 @@
+.container{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+   
+    
+    padding: 5px 10px;
+    cursor: pointer;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffffffbe;
+    color: black;
+
+}
+
+.button:disabled{
+    cursor: not-allowed;
+
+
+}
+
+.buttons{
+    padding: 5px 10px;
+    cursor: pointer;
+    
+    background-color: #ffffffbe;
+    color: black;
+    float: right;
+
+
+}
